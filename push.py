@@ -8,7 +8,7 @@ auth_token  = "cc04c62d6570b2b45af998ab08c278e1"
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(
-    to="whatsapp:+6281224907778",
+    to="whatsapp:+628978745871",
     from_="whatsapp:+14155238886",
     body="Hello from Python!")
 
